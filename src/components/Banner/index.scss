@@ -1,0 +1,15 @@
+.banner {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../assets/image/background-default.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+
+    &__title {
+      color: rgba(1, 1, 1, .85);  
+      font-weight: bold;
+    }
+}
